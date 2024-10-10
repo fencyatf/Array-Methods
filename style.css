@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #ccc;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding-bottom: 15px;
+}
+input[type='text']{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.6px solid;
+    width: 300px;
+    margin-bottom: 10px;
+}
+input[type='submit']{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.6px solid;
+    width: 150px;
+    font-size: 15px;
+}
+#add{
+    background-color: #27a844;
+    color: white;
+}
+#add:hover{
+    background-color: #65ae75;
+    cursor: pointer;
+}
+#remove{
+    background-color: #dc3546;
+    color: white;
+}
+#remove:hover{
+    cursor: pointer;
+    background-color: #de6470;
+}
+ol{
+    padding-top: 15px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+li{
+    background-color: #ebe6e6;
+    border: 1px solid #f4f3f3;
+    border-radius: 5px;
+    padding: 8px; /* Padding inside each list item */
+    margin: 5px 0;
+}
